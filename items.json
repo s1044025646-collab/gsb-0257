@@ -1,0 +1,5 @@
+[
+  { "input": "0.5", "maxDenominator": 1 },
+  { "input": "1/0", "maxDenominator": 10 },
+  { "input": "22/7", "maxDenominator": 7 }
+]

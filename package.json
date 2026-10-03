@@ -1,0 +1,18 @@
+{
+  "name": "fraction-approx-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "有限分母分数近似与连分数解释后端（TypeScript + Node.js + SQLite）",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc -p tsconfig.test.json && node --test dist-test/test/approx.test.js dist-test/test/service.test.js",
+    "start": "node dist/cli.js serve",
+    "cli": "node dist/cli.js",
+    "demo": "node scripts/demo.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
